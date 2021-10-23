@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../asset/css/normalize.css" />
+    <link rel="stylesheet" href="../asset/css/grid.css" />
+
+    <title>Nghiem CSS Grid</title>
+    <style>
+      .container {
+        /* background-color: antiquewhite; */
+      }
+
+      .col {
+        background-color: rgb(201, 196, 196);
+       
+       
+        /* border: 1px rebeccapurple solid;  */
+        /* background-clip: content-box; */
+        /* box-sizing: border-box; */
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid container">
+        <h1>Gird System Layout</h1>
+      <div class="row ">
+        <div class="col sx-12">
+          <p>12 of 12</p>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col sx-6">
+          <p>6 of 12</p>
+        </div>
+        <div class="col sx-6">
+          <p>6 of 12</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col sx-4">
+          <p>4 of 12</p>
+        </div>
+        <div class="col sx-4">
+          <p>4 of 12</p>
+        </div>
+        <div class="col sx-4">
+          <p>4 of 12</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col sx-3"><p>3 of 12</p></div>
+        <div class="col sx-3"><p>3 of 12</p></div>
+        <div class="col sx-3"><p>3 of 12</p></div>
+        <div class="col sx-3"><p>3 of 12</p></div>
+      </div>
+      <div class="row">
+        <div class="col sx-2"><p>2 of 12</p></div>
+        <div class="col sx-2"><p>2 of 12</p></div>
+        <div class="col sx-2"><p>2 of 12</p></div>
+        <div class="col sx-2"><p>2 of 12</p></div>
+        <div class="col sx-2"><p>2 of 12</p></div>
+        <div class="col sx-2"><p>2 of 12</p></div>
+      </div>
+      <div class="row">
+        <div class="col sx-1"><p>1 of 12</p></div>
+        <div class="col sx-1"><p>1 of 12</p></div>
+        <div class="col sx-1"><p>1 of 12</p></div>
+        <div class="col sx-1"><p>1 of 12</p></div>
+        <div class="col sx-1"><p>1 of 12</p></div>
+        <div class="col sx-1"><p>1 of 12</p></div>
+        <div class="col sx-1"><p>1 of 12</p></div>
+        <div class="col sx-1"><p>1 of 12</p></div>
+        <div class="col sx-1"><p>1 of 12</p></div>
+        <div class="col sx-1"><p>1 of 12</p></div>
+        <div class="col sx-1"><p>1 of 12</p></div>
+        <div class="col sx-1"><p>1 of 12</p></div>
+      </div>
+      <div class="row ">
+        <div class="col sx-12 lg-10 lg-o-1 md-8 md-o-2 sm-12">
+           <p>offset center 2 col</p> 
+        </div>
+    </div>
+  </body>
+</html>

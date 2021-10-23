@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn{
+    margin: 0;
+    min-width: 100px;
+    height: 40px;
+    width: auto;
+    padding:6px 12px;
+    border: none;
+    border-radius: 20px;
+    color: var(--dark-color);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    box-sizing: border-box;
+    cursor: pointer; 
+    background-color: var(--default-btn);
+    transition-duration: 0.5s;
+}
+/* =====Color Button===== */
+.btn.btn-success{
+    background-color: var(--success-color);
+    color:var(--white-color);
+}
+.btn.btn-warning{
+   background-color: var(--warning-color);
+   color:var(--white-color);
+}
+.btn.btn-error{
+    background-color: var(--error-color);
+    color:var(--white-color);
+    cursor: not-allowed;
+}
+.btn.btn-ok{
+    background-color: var(--ok-color);
+    color:var(--white-color);
+ }
+.btn.btn-gray{
+    background-color: var(--gray-color);
+    color:var(--white-color);
+ }
+.btn.btn-dark{
+    background-color: var(--dark-color);
+    color:var(--white-color);
+ }
+.btn.btn-link{
+    background-color: var(--white-color);
+    border: 2px solid  var(--ok-color) ;
+    color:var(--ok-color);
+ }
+/* =====Color Button===== */
+/* =====Hover Button===== */
+.hor:hover{
+    background-color: var(--white-color);
+    border: 1.7px solid  var(--black-color) ;
+    color:var(--dark-color);
+}
+.hor-success:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid  var(--success-color) ;
+    color:var(--dark-color);
+}
+.hor-warning:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid  var(--warning-color) ;
+    color:var(--dark-color);
+}
+.hor-error:hover{
+    background-color: rgb(255, 255, 255);
+    color:var(--dark-color);
+    border: 2px solid  var(--error-color) ;
+    cursor: not-allowed;
+}
+.hor-ok:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid  var(--ok-color) ;
+    color:var(--dark-color);
+}
+.hor-gray:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid  var(--gray-color) ;
+    color:var(--dark-color);
+}
+.hor-dark:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid  var(--dark-color) ;
+    color:var(--dark-color);
+}
+.hor-link:hover{
+    background-color: #18dcff;
+    border: 2px solid  var(--warning-color) ;
+    color:var(--white-color);
+}
+/* =====Hover Button===== */
+/* =====Rounded===== */

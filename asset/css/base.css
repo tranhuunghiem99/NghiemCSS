@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css2?family=Andada&display=swap);
+
+*{
+    box-sizing: inherit;
+    font-family: 'Andada', serif;
+}
+:root{
+    --white-color:#fff;
+    --default-btn:#f1f2f6;
+    --black-color:#000;
+    --gray-color:#747d8c;
+    --dark-color:#2d3436;
+    --warning-color:#fff200;
+    --success-color:#4cd137;
+    --error-color:#e84118;
+    --ok-color:#00a8ff;
+    --img-test:"https://images.pexels.com/photos/672636/pexels-photo-672636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
+}
+a,a::after,a::before,a:hover,a:active{
+    text-decoration: none;
+    color: #000;
+}
