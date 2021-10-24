@@ -31,10 +31,13 @@
     color: var(--white-color);
 }
 .navbar.spw{
-    position: fixed;
     display: flex;
     justify-content: space-between;
 }
+.fixed{
+    position: fixed;
+}
+
 .menu{
 display: none;
 }
